@@ -7,6 +7,7 @@ import MoveCamOnScroll from './components/MoveCamOnScroll/MoveCamOnScroll';
 import { OrbitControls } from '@react-three/drei';
 import ExpandableBar from './components/Navbar/ExpandableBar';
 import Hero from './components/Hero/Hero';
+import Overview from './components/Overview/Overview';
 
 function App() {
 
@@ -39,11 +40,11 @@ function App() {
         <section className='h-screen'>
           <Hero />
         </section>
-        <section className='h-screen'>
-          Hero
+        <section className='h-screen flex justify-center items-center'>
+          <Overview />
         </section>
         <section className='h-screen'>
-          Hero
+          Skills
         </section>
       </main>
     </div>
